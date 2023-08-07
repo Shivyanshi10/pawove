@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Pawove</title>
+    <link rel="stylesheet" href="pawovecss1.css">
+    <style>
+        .menu{
+            background-color: rgb(40, 115, 13);
+            overflow: auto;
+        }
+        .menu ul{
+            list-style: none;
+        } 
+        .menu li a{
+            text-decoration: none;
+            float: left;
+            margin: 2px 14px;
+            padding: 4px 20px;
+        }
+        a:hover 
+        {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <ul style="color: black;">
+                <li><a href="HOME">Home</a></li>
+                <li><a href="GALLERY">Gallery</a></li>
+                <li><a href="ABOUT US">About Us</a></li>
+                <li><a href="CONTACT US">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="headd">
+        <img src="https://www.google.com/logos/fnbx/westminster_dog_show/westminster_kp_dm.gif"alt="Your Logo" width="100px" height="80px">
+        <h1>Hello! Welcome to Pawove Site</h1>
+        <center><img src="data:image/jpeg;base64,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" alt="dog">
+        </center>
+    
+            <p style="color: black;">A dog is a beautiful creature on the earth that consists of four legs and sharp teeth. The teeth of a dog are tough and bright, which helps in biting the flesh of the body. 
+            Dogs have an intelligent nature, which is why they help officers in catching thieves and strangers. 
+            They consist of a very loud barking nature. A dog is a very loyal creature that always keeps the owner’s life safe and protected. 
+            A dog needs an important exercise for spending a healthy lifestyle. They have excellent smelling capability, and also, they can hear the sounds from a very far distance. 
+        
+    </p> 
+        
+    </div>
+    <br>
+    <h1>Types of Breeds</h1>
+    <table>
+        <tr>
+              <th>SNo.</th>
+              <th>Breed Name</th>
+              <th>Some Dog Breed In This Group</th>
+              <th>Image</th>
+            </tr>
+            <tr>
+                <td>01 </td>
+              <td>Sporting Group  </td>
+              <td>Labrador retrievers, golden retrievers, German shorthaired pointers, and the Irish setter</td>
+              <td><img src="https://www.thesprucepets.com/thmb/7dqFqgodJPWbkgKGGXKDllS2qsQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/dog-breed-profile-golden-retriever-1117969-hero-da398f6462704058ace0ef5ae007866d.jpeg" alt="Dog" width="300px" width="200px"></td>
+            </tr>
+            <tr>
+                <td>02</td>
+              <td>Hound Group</td>
+              <td>Beagle,Greyhound,Basenji and Dachshund</td>
+              <td><img src="https://www.thesprucepets.com/thmb/BdVdg21eoogELz-_ktIxwrrMIkg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-566943335-79f16d740c794e77bf160dc46bb06f94.jpg" alt="dog" width="300px" width="200px"></td>
+            </tr>
+            <tr>
+                <td>03</td>
+              <td> Terrier Group</td>
+              <td>American Staffordshire Terrier, Bull terrier, Silky terrier,Boston terrier and Dandie Dinmont terrier
+                </td>
+              <td><img src="https://www.thesprucepets.com/thmb/SJUHmfA0nXDQa3j6LiU7TbcPjjo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-932231310-6c0ed6816ff64f92a989df14c0523ad9.jpg" alt="dog" width="300px" width="200px"></td>
+            </tr>
+            <tr>
+                <td>04</td>
+              <td>Non-Sporting Group</td>
+              <td>Beagle,Greyhound,Basenji and Dachshund</td>
+              <td><img src="https://www.thesprucepets.com/thmb/7nQ0xotUQbyHw3L5Qa_9J5HRxk8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1044189068-45efd4d8bbc34eab8cc751340897f651.jpg" alt="dog" width="300px" width="200px"></td>
+            </tr>
+            <tr>
+                <td>05</td>
+              <td> Herding Group</td>
+              <td>Border collie, Pembroke Welsh corgi,German Shepherd, Australian shepherd and Old English Sheepdog</td>
+              <td><img src="https://www.thesprucepets.com/thmb/WD-ylGk7NYtGChHE16CycUiA4Ik=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-128106921-87c8f8ec80304153a6e0c39ffb2a7816.jpg" alt="dog" width="300px" width="200px"></td>
+            </tr>
+          </table>
+          <br>
+          <br>
+          <footer>
+            <p>Copyright By Shivyanshi Rai</p>
+            <p><a href="mailto:shivyanshirai10.com">shivyanshirai10.com</a></p>
+          </footer>
+</body>
+</html>
